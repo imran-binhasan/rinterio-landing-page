@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio - Real Estate</title>
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <!-- Manrope Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Daisy UI + Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6de2594102.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                fontFamily: {
+                  manrope:['Manrope'],
+                },
+            },
+          },
+        }
+      </script>
+</head>
+
+
+<body class="font-manrope">
+<!-- Header -->
+ <header class="container mx-auto">
+    <!-- Nav -->
+     <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+
+              <a class="text-2xl font-semibold"> <i class="fa-duotone fa-solid fa-circle-arrow-up fa-rotate-by" style="--fa-primary-color: #121212; --fa-secondary-color: #9ef830; --fa-secondary-opacity: 1; --fa-rotate-angle: 45deg;"></i> Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-extrabold">Home</a></li>
+                <li><a>Service</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end invisible lg:visible flex gap-4">
+                <a href="#"><i class="fa-solid fa-magnifying-glass text-2xl"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping text-2xl"></i></a>
+              <a class="btn bg-[#ABEF5F]">Book Consult</a>
+            </div>
+            
+                <div class="dropdown lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Item 1</a></li>
+                      <li><a>Item 3</a></li>
+                    </ul>
+                  </div>
+            </div>
+
+          
+     </nav>
+     <div class="flex flex-col gap-5">
+        <div>
+            <img class="mx-auto" src="assets/banner.png" alt="banner">
+        </div>
+        <div class="space-y-6">
+            <h1 class="text-center text-6xl font-extrabold ">A barn house of this design has a <br> striking appearance</h1>
+            <p class="text-center w-3/4 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
+        </div>
+        <div class="mx-auto">
+            <a href="#" class="btn bg-[#ABEF5F80] rounded-3xl px-8">View Details</a>
+        </div>
+
+     </div>
+ </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Main -->
+ <main>
+
+ </main>
+<!-- Footer -->
+ <footer>
+ </footer>
+</body>
+</html>
