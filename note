@@ -1,0 +1,79 @@
+
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-5 px-40">
+
+    <div class="border-2 flex flex-col rounded-xl col-span-8  lg:flex-row p-6 ">
+
+      <div class="w-full">
+        <img class="h-[192px]" src="assets/img1.png" alt="">
+      </div>
+
+      <div class="space-y-4 p-4">
+        <h4 class="text-xl font-bold ">Commercial</h4>
+        <p class="font-medium text-zinc-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+        <div>
+          <a href="#" class="font-bold text-lg">View Details
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            stroke-width="1.8"
+            stroke="currentColor"
+            class="size-7 bg-[#ABEF5F] rounded-full py-1 px-1 inline-block mx-1 mb-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg> 
+        </a>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-span-4 border-2 w-full flex">
+      <img class="w-fit p-5" src="assets/img2.png" alt="">
+    </div>
+ 
+
+
+
+    <div class="col-span-3 border-2 w-full flex">
+      <img class="p-4 mx-auto" src="assets/img3.png" alt="">
+    </div>
+
+
+    <div class="border-2 rounded-xl col-span-6 flex p-6 ">
+      <div class="w-full">
+        <img class="h-[192px]" src="assets/img4.png" alt="">
+      </div>
+
+
+      <div class="space-y-4 borde p-4">
+        <h4 class="text-xl font-bold ">Commercial</h4>
+        <p class="font-medium text-zinc-500">The barn house captivates with its blend of rustic charm and modern</p>
+        <div>
+          <a href="#" class="font-bold text-lg">View Details
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            stroke-width="1.8"
+            stroke="currentColor"
+            class="size-7 bg-[#ABEF5F] rounded-full py-1 px-1 inline-block mx-1 mb-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg> 
+        </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-span-3 border-2 w-full flex">
+      <img class="p-4 mx-auto" src="assets/img5.png" alt="">
+    </div>
+  </div> </div>

@@ -37,7 +37,20 @@
         <div class="navbar bg-base-100">
             <div class="navbar-start">
 
-              <a class="text-3xl font-semibold"> <i class="fa-duotone fa-solid fa-circle-arrow-up fa-rotate-by" style="--fa-primary-color: #121212; --fa-secondary-color: #9ef830; --fa-secondary-opacity: 1; --fa-rotate-angle: 45deg;"></i> Rinterio</a>
+              <a class="text-3xl font-semibold">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                stroke-width="1.8"
+                stroke="currentColor"
+                class="size-8 bg-[#ABEF5F] rounded-full py-1 px-1 inline-block mb-1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg> Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -97,7 +110,7 @@
 
  <!-- Main -->
 <main>
-  <!-- Section Container 1 -->
+<!-- Section Background Gray Starts -->
 <section class=" bg-[#e9e8e8] relative py-10">
   <div>
     <img class="absolute left-12 top-8" src="assets/Vector.png" alt="">
@@ -105,9 +118,9 @@
   <!-- About US -->
   <section class="flex flex-col lg:flex-row container mx-auto">
     <!-- Content -->
-    <div class="flex flex-1 flex-col gap-y-5 py-20 border border-red-500">
+    <div class="flex flex-1 flex-col gap-y-5 py-20">
     
-     <div class="border border-red-500 mx-auto space-y-5 px-4 lg:px-0">
+     <div class="0 mx-auto space-y-5 px-4 lg:px-0">
       <div class="py-2">
         <a class="btn bg-white rounded-2xl"><i class="fa-solid fa-arrow-right"></i> About Us</a>
        </div>
@@ -132,7 +145,7 @@
       
     </div>
     <!-- Image -->
-    <div class="border border-red-600 flex-1 py-8">
+    <div class=" flex-1 py-8 md:pt-24 lg:py-10">
       <img class="w-4/5 mx-auto" src="assets/Rectangle.png" alt="">
     </div>
   </section>
@@ -211,27 +224,28 @@
       <p class="text-center leading-7 font-medium">The barn house captivates with its blend of rustic charm and
         modern  sophistication,<br>  featuring weathered wood,  sleek metal accents.</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8  my-14 mx-auto">
 
-      <div class="bg-[#E7C1D3] rounded-xl space-y-3 p-8 mx-auto w-3/4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10  my-14 mx-auto">
+
+      <div class="bg-[#E7C1D3] rounded-xl space-y-3 p-8 mx-auto w-3/4 md:w-auto">
         <div><img src="assets/concept.png" alt=""></div>
         <h5 class="text-lg font-bold ">Concept</h5>
         <p class=" text-zinc-600 font-medium">The barn house  captivates with its blend of rustic charm and modern.</p>
       </div>
 
-      <div class="bg-[#EFDA6E] rounded-xl space-y-3 p-8 mx-auto   w-3/4">
+      <div class="bg-[#EFDA6E] rounded-xl space-y-3 p-8 mx-auto w-3/4 md:w-auto ">
         <div><img src="assets/flow-chart.png" alt=""></div>
         <h5 class="text-lg font-bold ">Design Progress</h5>
         <p class=" text-zinc-600 font-medium">The barn house  captivates with its blend of rustic charm and modern.</p>
       </div>
 
-      <div class="bg-[#A4DAC3] rounded-xl space-y-3 p-7 mx-auto   w-3/4">
+      <div class="bg-[#A4DAC3] rounded-xl space-y-3 p-7 mx-auto w-3/4 md:w-auto ">
         <div><img src="assets/vision.png" alt=""></div>
         <h5 class="text-lg font-bold ">Vision</h5>
         <p class=" text-zinc-600 font-medium">The barn house  captivates with its blend of rustic charm and modern.</p>
       </div>
 
-      <div class="bg-[#77AAEA] rounded-xl space-y-3 p-7 mx-auto   w-3/4">
+      <div class="bg-[#77AAEA] rounded-xl space-y-3 p-7 mx-auto w-3/4 md:w-auto ">
         <div><img src="assets/budget-planning.png" alt=""></div>
         <h5 class="text-lg font-bold ">Budget planning</h5>
         <p class=" text-zinc-600 font-medium">The barn house  captivates with its blend of rustic charm and modern.</p>
@@ -243,10 +257,11 @@
     </div>
    </section>
 </section>
+<!-- Section Background Gray Ends -->
 
-<!-- Section Container 2 -->
+<!-- Section Background White Starts -->
+<section class="container mx-auto my-14 lg:bg-white bg-[#e9e8e8]">
 
-<section class="container mx-auto my-14">
   <div  class="flex flex-col justify-center items-center gap-y-4">
     <div>
       <a class="btn bg-[#ABEF5F70] rounded-2xl"><i class="fa-solid fa-arrow-right"></i>Explore Our Latest Works</a>
@@ -255,27 +270,82 @@
     <p class="text-center leading-7 font-medium">The barn house captivates with its blend of rustic charm and
       modern  sophistication,<br>  featuring weathered wood,  sleek metal accents.</p>
   </div>
-  <div class="grid grid-cols-3 gap-10">
-    <div class="bg-red-600 col-span-2">
-      hello
-    </div>
-    <div class="bg-sky-600">
-      hello
-    </div>
- 
+  <!-- Grid Container -->\
+   <div class="grid lg:grid-cols-12 lg:grid-rows-2 gap-4 ">
 
+    <!-- Card 1 -->
+    <div class="flex flex-col lg:flex-row border rounded-3xl py-7 col-span-8 items-center gap-4 lg:gap-10 lg:px-7 bg-white">
+      <img class="w-5/6 mx-auto lg:w-4/6" src="assets/img1.png" alt="">
+      <div class="w-5/6 mx-auto space-y-4">
+        <h4 class="text-xl font-bold ">Commercial</h4>
+        <p class="font-medium text-zinc-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.</p>
+        <div>
+          <a href="#" class="font-bold text-lg">View Details
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            stroke-width="1.8"
+            stroke="currentColor"
+            class="size-7 bg-[#ABEF5F] rounded-full py-1 px-1 inline-block mx-1 mb-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg> 
+        </a>
+        </div>
+      </div>
+    </div>
 
-    <div class="bg-blue-600 ">
-      hello
+    <!-- Card 2 -->
+    <div class="w-full col-span-8 lg:col-span-4 border mx-auto p-6  rounded-3xl bg-white ">
+      <img class="w-full lg:h-full" src="assets/img2.png" alt="">
     </div>
-    <div class="bg-green-600 col-span-2">
-      hello
-    </div>
-    <div class="bg-green-600">
-      hello
-    </div>
-  </div> </div>
 
+    <!-- Card 3 -->
+    <div class="w-full col-span-8 lg:col-span-3 border mx-auto p-6 rounded-3xl order-5 md:order-none bg-white">
+      <img class="w-full lg:h-full" src="assets/img3.png" alt="">
+    </div>
+
+       <!-- Card 4 -->
+       <div class="flex flex-col lg:flex-row border rounded-3xl py-7 col-span-8 lg:col-span-6 items-center gap-4 order-4 md:order-none lg:px-7 bg-white">
+        <img class="w-[88%] lg:h-full mx-auto" src="assets/img4.png" alt="">
+        <div class="w-[88%] mx-auto space-y-4">
+          <h4 class="text-xl font-bold ">Commercial</h4>
+          <p class="font-medium text-zinc-500">The barn house captivates with its blend of rustic charm and modern</p>
+          <div>
+            <a href="#" class="font-bold text-lg">View Details
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              stroke-width="1.8"
+              stroke="currentColor"
+              class="size-7 bg-[#ABEF5F] rounded-full py-1 px-1 inline-block mx-1 mb-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg> 
+          </a>
+          </div>
+        </div>
+      </div>
+
+          <!-- Card 5 -->
+    <div class="w-full col-span-8 lg:col-span-3 border mx-auto p-6   rounded-3xl order-3 md:order-none bg-white">
+      <img class="w-full lg:h-full" src="assets/img5.png" alt="">
+    </div>
+
+   </div>
+
+<!-- Bonus Section -->
+
+<section>
+  
 </section>
 
 
@@ -283,6 +353,92 @@
 
 
 
+
+
+
+
+
+
+
+
+</section>
+
+<section class="container mx-auto my-14">
+  <!-- Review Section-->
+  <div  class="flex flex-col justify-center items-center gap-y-4">
+    <div>
+      <a class="btn bg-[#ABEF5F70] rounded-2xl"><i class="fa-solid fa-arrow-right"></i>Checkout This Section</a>
+     </div>
+    <h3 class="text-5xl font-bold leading-[60px] text-center">Our Customer Reviews</h3>
+    <p class="text-center leading-7 font-medium">The barn house captivates with its blend of rustic charm and
+      modern  sophistication,<br>  featuring weathered wood,  sleek metal accents.</p>
+  </div> 
+  
+  <div class="grid grid-cols-1 lg:grid-cols-3 py-4 my-10 gap-6">
+              <!-- Card 1 -->
+              <div class="flex flex-col w-[340px] mx-auto border rounded-lg space-y-2 py-5 hover:border-pink-300 bg-orange-50">
+                <div class="w-24 rounded-full mx-auto">
+                      <img src="assets/user-1.png" />
+                </div>
+                <p class="mx-auto text-lg text-center w-[260px]">Selling my home was effortless and profitable, with fantastic service that led to a quick and successful sale!</p>
+                <div class="rating mx-auto">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked="checked" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <h5 class="text-slate-600 text-center">Tom Hanks</h5>
+               
+                </div>
+
+              <!-- Card 2 -->
+              <div class="flex flex-col w-[340px] mx-auto border rounded-lg space-y-3 py-5 hover:border-pink-300 bg-blue-50">
+                <div class="w-24 rounded-full mx-auto">
+                      <img src="assets/user-2.png" />
+                </div>
+                <p class="mx-auto text-lg  text-center w-[260px]">The market insights and professional advice provided were invaluable in expanding my real estate portfolio.</p>
+                <div class="rating mx-auto">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  checked="checked"/>
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <h5 class="text-slate-600 text-center">Potato Princess</h5>
+               
+                </div>
+
+              <!-- Card 3 -->
+              <div class="flex flex-col w-[340px] mx-auto border rounded-lg space-y-3 py-5 hover:border-pink-300 bg-pink-50">
+                <div class="w-24 rounded-full mx-auto">
+                      <img src="assets/user-3.png" />
+                </div>
+                <p class="mx-auto text-lg  text-center w-[260px]">Their service quality is above average.But considering the cost ,I couldn't have been better.</p>
+                <div class="rating mx-auto">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked="checked" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <h5 class="text-slate-600 text-center">Ava Sophie</h5>
+               
+                </div>
+                             
+  </div>
+</section>
+    <!-- Review Section End  -->
+
+    <section></section>
 
 </main>
 <!-- Main End -->
