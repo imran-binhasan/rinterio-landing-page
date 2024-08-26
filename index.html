@@ -30,11 +30,9 @@
 
 <body class="font-manrope">
 <!-- Header -->
-
-
  <header class="container mx-auto mb-20">
      <nav>
-        <div class="navbar bg-base-100 py-4 items-center">
+        <div class="navbar bg-base-100 py-3 items-center">
             <div class="navbar-start">
 
               <a class="text-3xl font-semibold">
@@ -53,8 +51,8 @@
               </svg> Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 text-lg">
-                <li><a class="font-extrabold text-zinc-600">Home</a></li>
+              <ul class="menu menu-horizontal px-1 text-lg text-gray-600">
+                <li><a class="font-extrabold text-black">Home</a></li>
                 <li><a>Service</a></li>
                 <li><a>Portfolio</a></li>
                 <li><a>Blogs</a></li>
@@ -84,9 +82,11 @@
                     </div>
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1</a></li>
-                      <li><a>Item 3</a></li>
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow space-y-3">
+                      <li><a>Service</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
                     </ul>
                   </div>
             </div> 
@@ -98,7 +98,7 @@
         </div>
         <div class="space-y-6">
             <h1 class="text-center text-4xl md:text-6xl font-bold ">A barn house of this design has a <br> striking appearance</h1>
-            <p class="text-center md:w-3/4 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and windows that flood the space with natural light.</p>
+            <p class="text-center md:w-3/4 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,<br> sleek metal accents, and windows that flood the space with natural light.</p>
         </div>
         <div class="mx-auto w-[70%] sm:w-auto">
             <a href="#" class="btn bg-[#ABEF5F80] md:text-xl font-bold rounded-2xl w-full">View Details <svg
@@ -118,15 +118,18 @@
 
      </div>
  </header>
+<!-- Header End-->
+
 
  <!-- Main -->
 <main>
 <!-- Section Background Gray Starts -->
 <section class=" bg-[#e9e8e8] relative py-4 md:py-10 container mx-auto">
   <div>
-    <img class="md:absolute left-14 top-16 hidden" src="assets/Vector.png" alt="">
+    <img class="md:visible left-15 top-16 invisible absolute" src="assets/Vector.png" alt="">
   </div>
-  <!-- About US -->
+
+  <!-- About Us -->
   <section class="flex flex-col lg:flex-row container mx-auto">
     <!-- Content -->
     <div class="flex flex-1 flex-col gap-y-5 py-10  md:py-20">
@@ -134,15 +137,16 @@
      <div class="0 mx-auto space-y-5 px-4 lg:px-0">
       <div class="py-2 text-center md:text-left">
         <a class="btn bg-white rounded-2xl "><i class="fa-solid fa-arrow-right"></i> About Us</a>
+        <br><br>
        </div>
-      <h3 class="text-5xl font-bold leading-[60px] text-center md:text-left">We design thoughtful,<br> liveable spaces</h3>
-      <p class="text-center md:text-left">The barn house captivates with its blend of rustic charm and <br> 
-        modern sophistication, featuring weathered wood,  sleek metal accents.</p>
+      <h3 class="text-3xl md:text-5xl font-bold md:leading-[60px] text-center md:text-left">We design thoughtful,<br> liveable spaces</h3>
+      <p class="text-center md:text-left">The barn house captivates with its blend of rustic charm and 
+        modern sophistication,<br>  featuring weathered wood,  sleek metal accents.</p>
       <div class="flex items-center bg-white p-5 rounded-lg gap-5">
         <img src="assets/commercial.png">
         <div class="space-y-1">
           <h5 class="font-bold text-lg">Commercial</h5>
-        <p>Commercial interior designers plan public spaces—government buildings, <br>private businesses, or other corporate entities</p>
+        <p>Commercial interior designers plan government buildings, private or <br> other  entities</p>
         </div>
       </div>
       <div class="flex items-center bg-white p-5 rounded-lg gap-5">
@@ -221,9 +225,8 @@
       <h3 class="text-4xl text-center font-bold text-zinc-600">307+</h3>
       <p class="text-center font-semibold text-zinc-600">Staff Members</p>
     </div>
-
-
   </section>
+    <!-- About Us End-->
 
   <!-- How We Work -->
    <section class="container mx-auto">
@@ -231,7 +234,7 @@
       <div>
         <a class="btn bg-white rounded-2xl"><i class="fa-solid fa-arrow-right"></i> How we works</a>
        </div>
-      <h3 class="text-5xl font-bold leading-[60px] text-center">Our Works Process</h3>
+      <h3 class="text-3xl md:text-5xl font-bold leading-[60px] text-center">Our Works Process</h3>
       <p class="text-center leading-7 font-medium">Discover our streamlined work process designed to ensure efficiency quality and client <br>  satisfaction from start to finish.</p>
     </div>
 
@@ -260,12 +263,9 @@
         <h5 class="text-lg font-bold ">Budget planning</h5>
         <p class=" text-zinc-600 font-medium">The barn house  captivates with its blend of rustic charm and modern.</p>
       </div>
-
-     
-
-
     </div>
    </section>
+    <!-- How We Work End--> 
 </section>
 <!-- Section Background Gray Ends -->
 
@@ -276,14 +276,14 @@
     <div>
       <a class="btn bg-[#ABEF5F70] rounded-2xl"><i class="fa-solid fa-arrow-right"></i>Explore Our Latest Works</a>
      </div>
-    <h3 class="text-5xl font-bold leading-[60px] text-center">Our Latest Portfolio</h3>
-    <p class="text-center leading-7 font-medium">Explore our latest portfolio to see our most recent projects and innovative <br>designs that showcase our expertise.</p>
+    <h3 class="text-3xl md:text-5xl font-bold leading-[60px] text-center">Our Latest Portfolio</h3>
+    <p class="text-center leading-7 font-medium">Explore our latest portfolio to see our most recent projects and innovative designs <br> that showcase our expertise.</p>
   </div>
   <!-- Grid Container -->
-   <div class="grid lg:grid-cols-12 lg:grid-rows-2 gap-4 ">
+   <div class="grid lg:grid-cols-12 lg:grid-rows-2 gap-4 pt-8">
 
     <!-- Card 1 -->
-    <div class="flex flex-col lg:flex-row border rounded-3xl py-7 col-span-8 items-center gap-4 lg:gap-10 lg:px-7 bg-white">
+    <div class="flex flex-col lg:flex-row border rounded-3xl py-7 col-span-8 items-center gap-4 lg:gap-10 lg:px-7 bg-white ">
       <img class="w-5/6 mx-auto lg:w-4/6" src="assets/img1.png" alt="">
       <div class="w-5/6 mx-auto space-y-4">
         <h4 class="text-xl font-bold ">Commercial</h4>
@@ -378,8 +378,8 @@
     <div>
       <a class="btn bg-[#ABEF5F70] rounded-2xl"><i class="fa-solid fa-arrow-right"></i>Checkout This Section</a>
      </div>
-    <h3 class="text-5xl font-bold leading-[60px] text-center">Our Customer Reviews</h3>
-    <p class="text-center leading-7 font-medium">Discover our success stories and read what clients have to say <br> about their experience with us.</p>
+    <h3 class="text-3xl md:text-5xl font-bold leading-[60px] text-center">Our Customer Reviews</h3>
+    <p class="text-center leading-7 font-medium">Discover our success stories and read what clients have <br> to say about their experience with us.</p>
   </div> 
   
   <div class="grid grid-cols-1 lg:grid-cols-3 py-4 my-10 gap-6">
@@ -444,9 +444,9 @@
                              
   </div>
 </section>
-    <!-- Review Section End  -->
+  <!-- Review Section End  -->
 
-    <!-- Input Section -->
+  <!-- Input Section -->
     <section class="bg-[url('assets/bg.jpg')] bg-cover container mx-auto">
       <div class="container mx-auto py-14">
         <div  class="flex flex-col justify-center items-center gap-y-4 py-10">
@@ -474,7 +474,7 @@
           <textarea placeholder="Write your message here" class="textarea textarea-bordered textarea-md w-full h-32 rounded-2xl"></textarea>
         </div><br>
         <div class="w-4/5 ">
-          <a href="#" class="btn w-full font-bold text-lg bg-[#ABEF5F]">Send Mail</a>
+          <a href="#" class="btn w-full font-bold text-lg bg-[#ABEF5F]">Send Mail <i class="text-xl fa-duotone fa-solid fa-circle-arrow-up fa-rotate-by" style="--fa-primary-color: #121212; bg: #9ef830; --fa-secondary-opacity: 1; --fa-rotate-angle: 45deg;"></i></a>
         </div>
         
 
@@ -485,8 +485,11 @@
 
        </div>
     </section>
+     <!-- Input Section End-->
 </main>
 <!-- Main End -->
+
+
 <!-- Footer -->
  <footer class="bg-[#1C1C1C] container mx-auto">
   <div class="container mx-auto pt-20 pb-10">
@@ -516,24 +519,13 @@
     </ul>
     <div class="w-full  text-center ">
       <a class="btn bg-[#ABEF5F] font-bold text-lg">Book Consult 
-        <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        stroke-width="1.8"
-        stroke="currentColor"
-        class="size-8 bg-[#ABEF5F] rounded-full py-1 px-1 inline-block mb-1"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-        />
-      </svg>
+        <i class="text-xl fa-duotone fa-solid fa-circle-arrow-up fa-rotate-by" style="--fa-primary-color: #121212; bg: #9ef830; --fa-secondary-opacity: 1; --fa-rotate-angle: 45deg;"></i>
       </a>
     </div>
   </div>
 
   </div>
  </footer>
+ <!-- Footer End-->
 </body>
 </html>
